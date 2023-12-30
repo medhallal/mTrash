@@ -1,5 +1,6 @@
 # Specify the path of the folder
-$folder = "C:\mTrash"
+# This folder will be used to store the files and folders that will be deleted
+$folder = "C:\mTrash" # Very important: Make sure that the folder exists, and that it is not where this script is located
 
 # Get the current date and time
 $now = Get-Date

@@ -16,6 +16,8 @@ This is achieved by using the Windows Task Scheduler to execute the `DeleteFiles
 
 Clone the repository to your local machine
 
+Very important: The directory containing the `DeleteFiles.ps1` script must be d
+
 ### Manually Running the Script
 
 * Open PowerShell
@@ -53,6 +55,7 @@ A custom context menu command is used to move selected files or folders to the s
     * Order: `0`
     * Exe: `cmd.exe`
     * Param: `/c move "{path}" "C:\mTrash"`
+    (Note: You can change the path to the "mTrash" directory to whatever you want. Just make sure to set the same path in the `DeleteFiles.ps1` script. You must also create the directory before using the context menu command.)
     * Icon: `"C:\.mTrash\mTrash-96.ico"`
     (Note: You can change the icon to whatever you want. Just make sure to update the path to the icon in the command settings.)
     * Match Folder: `On`
