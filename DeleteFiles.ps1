@@ -1,3 +1,12 @@
+# mTrash: Delete files and folders that have not been accessed in 7 days
+# Version: 0.2
+# Author: medhallal
+# Date: 2023-12-30
+# License: MIT
+# Website: medhallal.com
+# GitHub: github.com/medhallal
+
+
 # Specify the path of the folder
 # This folder will be used to store the files and folders that will be deleted
 $folder = "C:\mTrash" # Very important: Make sure that the folder exists, and that it is not where this script is located

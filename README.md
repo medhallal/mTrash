@@ -16,7 +16,7 @@ This is achieved by using the Windows Task Scheduler to execute the `DeleteFiles
 
 Clone the repository to your local machine
 
-Very important: The directory containing the `DeleteFiles.ps1` script must be d
+Very important: The directory containing the `DeleteFiles.ps1` script must be different from the directory that will be used to store the files and folders to be deleted. Otherwise, the script will delete itself.
 
 ### Manually Running the Script
 
@@ -83,6 +83,9 @@ Contributors names and contact info
 
 * 0.1
     * Initial Release
+* 0.2
+    * Added some notices to the README & DeleteFiles.ps1 files
+
 
 ## License
 
